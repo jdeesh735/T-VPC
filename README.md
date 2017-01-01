@@ -6,7 +6,7 @@ A Terraform module to create an Amazon Web Services (AWS) Virtual Private Cloud 
 
 ```javascript
 module "vpc" {
-  source = "github.com/azavea/terraform-aws-vpc"
+  source = "github.com/anmolnagpal/terraform-aws-vpc"
 
   name = "Default"
   region = "us-east-1"
